@@ -37,8 +37,7 @@ title;
 proc print data=kidney(obs=10);
 run;
 
-/* Original source contained a typo: kidney_fi*+xed. Corrected below.
-   Use age_n so minimum and maximum are numeric, not lexicographic. */
+/* Use age_n so minimum and maximum are numeric. */
 proc sql;
     select count(*) as total_participants,
            min(age_n) as minimum_age,
