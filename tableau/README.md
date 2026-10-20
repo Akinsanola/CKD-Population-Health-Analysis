@@ -13,4 +13,6 @@ The dashboard includes:
 
 **Methodology:** Results are based on unweighted sample proportions among adults with classified CKD status. They should not be interpreted as nationally representative prevalence estimates.
 
-A link to the published Tableau Public dashboard will be added here.
+### Interactive Tableau Dashboard
+
+[View the CKD Population Health Dashboard on Tableau Public](https://public.tableau.com/app/profile/ololade.akinsanola/viz/CKDPopulationHealthAnalysis/Dashboard1)
