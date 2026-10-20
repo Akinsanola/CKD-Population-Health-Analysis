@@ -1,0 +1,41 @@
+
+-- 1. Total Classified Adults
+Total Classified Adults =
+CALCULATE(
+    COUNTROWS(kidney_clean),
+    kidney_clean[analytical_ckd_status] IN {"CKD", "No CKD"}
+)
+
+-- 2. CKD Cases
+CKD Cases =
+CALCULATE(
+    COUNTROWS(kidney_clean),
+    kidney_clean[analytical_ckd_status] = "CKD"
+)
+
+-- 3. No CKD Cases
+No CKD Cases =
+CALCULATE(
+    COUNTROWS(kidney_clean),
+    kidney_clean[analytical_ckd_status] = "No CKD"
+)
+
+-- 4. CKD Proportion
+CKD Proportion =
+DIVIDE(
+    [CKD Cases],
+    [Total Classified Adults],
+    0
+)
+
+-- 5. Total Classified Adults Display
+Total Classified Adults Display =
+FORMAT([Total Classified Adults], "#,##0")
+
+-- 6. CKD Cases Display
+CKD Cases Display =
+FORMAT([CKD Cases], "#,##0")
+
+-- 7. No CKD Cases Display
+No CKD Cases Display =
+FORMAT([No CKD Cases], "#,##0")
