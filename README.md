@@ -14,7 +14,7 @@ This project explores patterns in chronic kidney disease (CKD) classification ac
 
 [**Explore the Tableau dashboard**](https://public.tableau.com/app/profile/ololade.akinsanola/viz/CKDPopulationHealthAnalysis/Dashboard1)
 
-![Tableau CKD dashboard](images/CKD_Tableau_Dashboard.png)
+![Tableau CKD dashboard](images/Tableau_dashboard.jpg)
 
 ### Power BI — Dashboard Preview
 
