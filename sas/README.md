@@ -19,6 +19,3 @@ Run in order within the **same SAS session**:
 
 The analysis uses **unweighted** sample data and should not be interpreted as nationally representative CKD prevalence. Chi-square tests are unadjusted; logistic regression models separately adjust the smoking and diabetes comparisons for age. These analyses are observational and do not establish causality.
 
-## Editing notes
-
-The original source had a clear typo (`kidney_fi*+xed`) in a validation query. It was corrected to `kidney_fixed`, and the age range check now uses numeric `age_n`. The scripts have been organized but **not executed or independently validated** in SAS in this environment.
